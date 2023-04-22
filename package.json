@@ -1,7 +1,7 @@
 {
-  "name": "The UNBLOCKED HUB",
-  "version": "0.1.0",
-  "description": "Ending Internet Censorship Since 2023.",
+  "name": "Project Luma",
+  "version": "0.1.4",
+  "description": "Ending Internet Censorship since 2023.",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
