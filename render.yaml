@@ -1,6 +1,6 @@
 
   services:
   - type: web
-    name: The Unblocked Hub
+    name: interstellar
     env: docker
     plan: free
