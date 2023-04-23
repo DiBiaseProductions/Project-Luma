@@ -18,7 +18,7 @@ Project Luma is one of the best modern unblocked game sites. Check it out <a hre
 
 <a target="_blank" href="https://replit.com/github/DiBiaseProductions/Project-Luma"><img alt="Run on Replit" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"></a>
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/DiBiaseProductions/Project-Luma)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)]([https://render.com/deploy?repo=https://github.com/DiBiaseProductions/Project-Luma]
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/DiBiaseProductions/Project-Luma.)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/DiBiaseProductions/Project-Luma)
 
 
