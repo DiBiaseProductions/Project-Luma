@@ -1,7 +1,7 @@
 {
-  "name": "interstellar-web",
-  "version": "4.1.4",
-  "description": "One of the best modern web proxies.",
+  "name": "Project Luma",
+  "version": "0.1.4",
+  "description": "Ending Internet Censorship since 2023.",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
