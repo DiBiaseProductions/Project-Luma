@@ -2,7 +2,7 @@
 
 # About Us
 
-Project Luma is one of the best modern unblocked game sites. Check it out <a href="https://interstellars.games">here</a>. If this link is blocked, you can get more links in our <a href="https://discord.gg/24AzMZgTE5">Discord Server!</a>
+Project Luma is one of the best modern unblocked game sites. Check it out <a href="https://project-luma.onrender.com">here</a>. If this link is blocked, you can get more links in our <a href="https://discord.gg/24AzMZgTE5">Discord Server!</a>
 
 <a href="https://discord.gg/24AzMZgTE5"><img height="30px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"><img></a>
 <a href="https://github.com/DiBiaseProductions/Project-Luma"><img height="30px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img></a>
