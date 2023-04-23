@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Classes</title>
+    <title> Classes </title>
     <link href="assets/images/branding/favicon/favicon.png" rel="icon" type="image/x-icon" />
-    <!-- Main Scripts-->
-    <script src="resources/js/go.js"></script>
+    <link href="assets/css/particles.css" rel="stylesheet">
+    <script src="assets/js/main.js"></script>
     <script src="./uv/uv.bundle.js"></script>
     <script src="./uv/uv.config.js"></script>
-    <script src="resources/js/index.js"></script>
-    <link href="assets/css/particles.css" rel="stylesheet">
-    <script src="resources/js/visit.js"></script>
-    <!-- Extra Scripts-->
     <script src="assets/js/panic.js"></script>
     <script src="assets/js/search.js"></script>
+    <script src="assets/js/go.js"></script>
     <script src="/assets/js/themecontrol.js"></script>
     <link href="assets/css/settings/main.css" rel="stylesheet" />
     <link href="assets/css/nav.css" rel="stylesheet" />
@@ -20,21 +17,22 @@
     <link href="assets/css/searchbar.css" rel="stylesheet" />
     <meta content="The best math tutoring!" name="description" />
     <link href="assets/images/branding/favicon/interstellar.png" rel="shortcut icon" type="image/x-icon" />
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-WKJQ5QHQTJ');
-</script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-WKJQ5QHQTJ");
+    </script>
+    </link>
   </head>
   <body>
-    <!-- Nav Bar-->
     <div class="header2">
       <br />
-      <a class="logo" href="/../"> Project Luma </a>
+      <a class="logo" href="/../">Project Luma</a>
       <div class="header2-right">
         <a href="web"> Proxy </a>
         <a href="play"> Games </a>
@@ -51,8 +49,6 @@
     <div>
       <input class="searchbar" id="searchbar" name="search" onkeyup="search_animal()" placeholder="Search.." tag="searchbar" type="text" />
     </div>
-    <br>
-    <h2>If nothing is working press Ctrl + Shift + R</h2>
     <script>
       const searchbar = document.getElementById("searchbar");
       searchbar.addEventListener("input", function() {
@@ -68,16 +64,7 @@
       });
     </script>
     <br />
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://9anime.to')">
-            <img loading="lazy" src="/assets/images/icons/apps/9anime.png" style="border-radius: 25px;" />
-          </a>
-          <p3> 9Anime </p3>
-        </div>
-      </div>
-    </div>
+
     <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
@@ -104,7 +91,7 @@
           <a onclick="go('https://chatgptproxy.me')">
             <img loading="lazy" src="/assets/images/icons/chatgpt.png" style="border-radius: 25px;" />
           </a>
-          <p3> ChatGPT Proxy </p3>
+          <p3> ChatGPT </p3>
         </div>
       </div>
     </div>
@@ -124,17 +111,7 @@
           <a class="game" onclick="go('https://discord.com')">
             <img loading="lazy" src="/assets/images/icons/apps/discord.jpg" style="border-radius: 25px;" />
           </a>
-          <p3>Discord</p3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
-          <a class="game" onclick="visit('https://discord.com')">
-            <img loading="lazy" src="/assets/images/icons/apps/discord.jpg" style="border-radius: 25px;" />
-          </a>
-          <p3> Discord - Login</p3>
+          <p3> Discord </p3>
         </div>
       </div>
     </div>
@@ -145,16 +122,6 @@
             <img loading="lazy" src="/assets/images/icons/apps/espn.webp" style="border-radius: 25px;" />
           </a>
           <p3> ESPN </p3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://fifarosters.com/')">
-            <img loading="lazy" src="/assets/images/icons/fifa.png" style="border-radius: 25px;" />
-          </a>
-          <p3> Fifa Rosters </p3>
         </div>
       </div>
     </div>
@@ -181,7 +148,7 @@
     <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://play.geforcenow.com'); gfn()">
+          <a class="game" onclick="go('https://play.geforcenow.com')">
             <img loading="lazy" src="/assets/images/icons/apps/geforce-now.png" style="border-radius: 25px;" />
           </a>
           <p3> Geforce NOW </p3>
@@ -221,30 +188,10 @@
     <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
-          <a class="game" onclick="alert('It is currently not possible to add Instagram, The login feature will not work.')">
-            <img loading="lazy" src="/assets/images/icons/apps/instagram.png" style="border-radius: 25px;" />
-          </a>
-          <p3 style="color:red"> Instagram </p3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://messenger.com/')">
-            <img loading="lazy" src="/assets/images/icons/apps/messenger.png" style="border-radius: 25px;" />
-          </a>
-          <p3> Messenger </p3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
           <a class="game" onclick="go('https://paramountplus.com')">
             <img loading="lazy" src="/assets/images/icons/apps/paramount.png" style="border-radius: 25px;" />
           </a>
-          <p3> Paramount Plus </p3>
+          <p3> Paramount+ </p3>
         </div>
       </div>
     </div>
@@ -290,8 +237,18 @@
     </div>
     <div class="row">
       <div class="span1">
+        <div class="card animals" loading="lazy" style="padding-top: 5px;">
+          <a class="game" onclick="go('https://binbashbanana.github.io/webretro/')">
+            <img loading="lazy" src="/assets/images/icons/retroarch.png" style="border-radius: 25px;" />
+          </a>
+          <p3> Retro Arch </p3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span1">
         <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://nowgg.me')">
+          <a class="game" onclick="go('https://www.snapchat.com/en-US')">
             <img loading="lazy" src="/assets/images/icons/apps/snapchat.png" style="border-radius: 25px;" />
           </a>
           <p3> Snapchat </p3>
@@ -378,6 +335,16 @@
         </div>
       </div>
     </div>
+     <div class="row">
+      <div class="span1">
+        <div class="card animals" loading="lazy" style="padding-top: 5px;">
+          <a onclick="go('https://nowgg.me/interstellar.html')">
+            <img loading="lazy" src="/assets/images/icons/worldbox.png" style="border-radius: 25px;" />
+          </a>
+          <p3> World Box </p3>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
@@ -401,16 +368,6 @@
     <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
-          <a class="game" onclick="go('https://web.whatsapp.com/')">
-            <img loading="lazy" src="/assets/images/icons/apps/whatsapp.png" style="border-radius: 25px;" />
-          </a>
-          <p3> Whatsapp </p3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span1">
-        <div class="card animals" loading="lazy">
           <a class="game" onclick="go('https://zoro.to')">
             <img loading="lazy" src="/assets/images/icons/apps/zoroto.png" style="border-radius: 25px;" />
           </a>
@@ -418,10 +375,5 @@
         </div>
       </div>
     </div>
-    <script>
-      function gfn() {
-        alert('Geforce NOW is currently having some issues for some users, we are aware of this issue and are working to fix it.')
-      }
-    </script>
   </body>
 </html>
